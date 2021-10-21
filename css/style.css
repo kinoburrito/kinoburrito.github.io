@@ -1,0 +1,77 @@
+
+
+
+body {
+    background-color: #2b2b2b;
+    font-family: 'Gilroy-Regular', monospace;
+    padding: 100px 0;
+    font:18px 'Gilroy';
+}
+.container {
+    width: 1000px;
+    min-height: 1300px;
+    border: 6px solid gray;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #2b2b2b;
+}
+
+.header {
+    display: flex;
+    height: 90px;
+}
+
+.title-block {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+    border-bottom: 1px solid #E5E9F2;
+}
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+
+.nav ul {
+    display: flex;
+    background: rgb(230, 230, 230);
+    margin: 10px 0;
+}
+
+.nav li {
+}
+
+.nav a {
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: medium;
+    border-right: 1px solid #d1d1d1;
+    transition: background .3s ease;
+}
+
+.nav ul li a:hover {
+    background: gray;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+.patrick {
+    border-radius: 5px;
+}
+
+.meninblack {
+    border-radius: 5px;
+}
